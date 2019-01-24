@@ -52,14 +52,7 @@
 		<script src="js/examples/js/objects/Water.js"></script>
 		<script src="js/examples/js/ParametricGeometries.js"></script>
 		<script id="fragmentShaderNoise" type="x-shader/x-fragment">
-			//
-			// Description : Array and textureless GLSL 3D simplex noise function.
-			//      Author : Ian McEwan, Ashima Arts.
-			//  Maintainer : ijm
-			//     Lastmod : 20110409 (stegu)
-			//     License : Copyright (C) 2011 Ashima Arts. All rights reserved.
-			//               Distributed under the MIT License. See LICENSE file.
-			//
+			
 			uniform float time;
 			varying vec2 vUv;
 			vec4 permute( vec4 x ) {
@@ -591,3 +584,13 @@ scene.add( klein );
 
 	</body>
 </html>
+<?
+//CREADOR DE ANIMACION DE TERRENO
+			// Description : Array and textureless GLSL 3D simplex noise function.
+			//      Author : Ian McEwan, Ashima Arts.
+			//  Maintainer : ijm
+			//     Lastmod : 20110409 (stegu)
+			//     License : Copyright (C) 2011 Ashima Arts. All rights reserved.
+			//               Distributed under the MIT License. See LICENSE file.
+			//
+?>
